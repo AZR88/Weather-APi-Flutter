@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:weather_api/widget/weather_api.dart';
 import 'package:weather_api/widget/widget.dart';
 
 class Homepage extends StatefulWidget {
@@ -188,6 +189,7 @@ class _HomepageState extends State<Homepage> {
                             fontSize: 18, fontWeight: FontWeight.bold),
                       ),
                     ),
+                    weather()
                   ],
                 ),
               ),
